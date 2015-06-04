@@ -1,0 +1,88 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_dimen_xxlarge"
+    android:paddingRight="@dimen/activity_dimen_xxlarge"
+    android:paddingTop="@dimen/activity_dimen_xlarge"
+    android:paddingBottom="@dimen/activity_dimen_large"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:text="@string/text_view_title"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"/>
+
+
+    <Button
+        android:id="@+id/button_spotify_app"
+        android:text="@string/button_spotify_streamer_title"
+        android:textSize="16sp"
+        android:background="#FDD835"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/activity_dimen_medium"
+        android:paddingBottom="@dimen/activity_dimen_medium"
+        android:layout_marginBottom="@dimen/activity_dimen_small"/>
+
+    <Button
+        android:id="@+id/button_scores_app"
+        android:text="@string/button_scores_app_title"
+        android:textSize="16sp"
+        android:background="#FDD835"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/activity_dimen_medium"
+        android:paddingBottom="@dimen/activity_dimen_medium"
+        android:layout_marginBottom="@dimen/activity_dimen_small"/>
+
+    <Button
+        android:id="@+id/button_library_app"
+        android:text="@string/button_library_app_title"
+        android:textSize="16sp"
+        android:background="#FDD835"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/activity_dimen_medium"
+        android:paddingBottom="@dimen/activity_dimen_medium"
+        android:layout_marginBottom="@dimen/activity_dimen_small"/>
+
+    <Button
+        android:id="@+id/button_build_it_app"
+        android:text="@string/button_build_it_app_title"
+        android:textSize="16sp"
+        android:background="#FDD835"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/activity_dimen_medium"
+        android:paddingBottom="@dimen/activity_dimen_medium"
+        android:layout_marginBottom="@dimen/activity_dimen_small"/>
+
+    <Button
+        android:id="@+id/button_reader_app"
+        android:text="@string/button_reader_app_title"
+        android:textSize="16sp"
+        android:background="#FDD835"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/activity_dimen_medium"
+        android:paddingBottom="@dimen/activity_dimen_medium"
+        android:layout_marginBottom="@dimen/activity_dimen_small"/>
+
+    <Button
+        android:id="@+id/button_capstone_app"
+        android:text="@string/button_capstone_app_title"
+        android:textSize="16sp"
+        android:background="#F9A825"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/activity_dimen_medium"
+        android:paddingBottom="@dimen/activity_dimen_medium"/>
+
+
+</LinearLayout>
